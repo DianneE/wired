@@ -116,7 +116,7 @@ header h1 {
 
 .col-6-42 {
     float: right;
-    height: 900px;
+    height: 1104px;
     margin: 2.38% 0 0;
     width: 14.29%;
 }
@@ -134,21 +134,35 @@ aside h6 {
     padding-top: 12px;
 }
 
-.col-17-42 {
+[class*='col-17-42-'] {
     float: left;
     width: 40.47%;
+    margin-right: 2.38%;
 }
 
-.col-17-42 h3 {
+.col-17-42-1 h3 {
     padding: 12px 0 0 12px ;
 }
 
-.col-17-42 p {
+.col-17-42-1 p {
     padding: 0 12px 12px;    
 }
 
+.col-17-42-2 {
+    padding: 0 12px 12px 12px;
+}
 
+.image-2 {
+    background-color: green; /*for visualization w/o image*/
+    height: 345px;
+    margin: 12px 0 20px;
+    width: 345px;
+}
 
+.col-17-42-2 h5, 
+.col-17-42-2 a {
+    display: inline;
+}
 
 
 /* ==========================================================================
