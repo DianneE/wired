@@ -164,6 +164,27 @@ aside h6 {
     display: inline;
 }
 
+.col-17-42-3 {
+    margin-top: -345px;
+}
+
+.image-3 p {
+    background-color: green;
+    height: 120px;
+    margin: 12px;
+    width: 346px;
+}
+
+.col-17-42-3 h3,
+.col-17-42-3>p,
+.col-17-42-3 h5 {
+    margin: 0 12px;
+}
+
+.col-17-42-3 h5, 
+.col-17-42-3 a {
+    display: inline;
+}
 
 /* ==========================================================================
   Resets
