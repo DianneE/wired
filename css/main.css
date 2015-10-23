@@ -20,7 +20,10 @@ body {
 }
 
 h2 {
+    border-bottom: 1px solid #000;
     font-family: Helvetica, serif;
+    padding: 10px 0 10px 10px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -86,7 +89,7 @@ header h1 {
    ========================================================================== */
 
 [class*='col-'] {
-    background-color: #dadada;
+    background-color: #eaeaea;
     border: 1px solid #000;
     border-top: 10px solid #000;
 }
@@ -95,12 +98,6 @@ header h1 {
     float: left;
     margin: 2.38% 2.38% 2.38% 0;
     width: 83.33%;
-}
-
-.col-35-42 h2 {
-    border-bottom: 1px solid #000;
-    padding: 10px 0 10px 10px;
-    text-transform: uppercase;
 }
 
 .image-1 {
@@ -137,7 +134,18 @@ aside h6 {
     padding-top: 12px;
 }
 
+.col-17-42 {
+    float: left;
+    width: 40.47%;
+}
 
+.col-17-42 h3 {
+    padding: 12px 0 0 12px ;
+}
+
+.col-17-42 p {
+    padding: 0 12px 12px;    
+}
 
 
 
