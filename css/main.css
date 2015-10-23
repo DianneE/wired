@@ -4,6 +4,34 @@
    Author's custom styles
    ========================================================================== */
 
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+}
+
+header {
+    background-color: #000;
+    height: 100px;
+}
+
+header h1 {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: .675em;
+    line-height: 1;
+    margin: 0 0 0 10%;
+    padding-top: 50px;
+    padding-bottom: 8px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 30%;
+}
 
 
 
@@ -13,7 +41,12 @@
 
 
 
-
+/* ==========================================================================
+  Resets
+   ========================================================================== */
+/*h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}*/
 
 
 
