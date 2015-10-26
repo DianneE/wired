@@ -22,7 +22,7 @@ body {
 h2 {
     border-bottom: 1px solid #000;
     font-family: Times, serif;
-    padding: 10px 0 10px 10px;
+    padding: 10px 10px 10px 10px;
     text-transform: uppercase;
 }
 
@@ -41,26 +41,22 @@ h5 {
     font-size: .6em;
 }
 
-h6 {
-    font-weight: bold;
-    line-height: 1;
-    text-align: center;
-}
-
-.upcase {
-    text-transform: uppercase;
-}
-
 a {
     border-bottom: 4px solid #9be;
     color: #000;
     font-size: 0.6em;
 }
 
-a .upcase {
-    font-size: 0.5em; /*How do you create upcase 
-    that is the height of the lower case letters? 
-    */
+.logo {
+    font-variant: small-caps;
+}
+
+.upcase {
+    text-transform: uppercase;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /* ==========================================================================
@@ -87,7 +83,7 @@ header h1 {
 
 
 /* ==========================================================================
-   Main content
+   Main Content
    ========================================================================== */
 
 [class*='col-'] {
@@ -129,14 +125,14 @@ header h1 {
     padding: 0 12px 12px;    
 }
 
-.col-17-42-2 {
+.col-17-42-2 p {
     padding: 0 12px 12px 12px;
 }
 
 .image-2 {
     background-color: green; /*for visualization w/o image*/
     height: 310px;
-    margin: 12px 0 20px;
+    margin: 12px 12px 20px;
     width: 345px;
 }
 
@@ -146,7 +142,7 @@ header h1 {
 }
 
 .col-17-42-3 {
-    margin-top: -345px;
+    margin-top: -370px;
     padding-bottom: 12px;
 }
 
@@ -155,6 +151,7 @@ header h1 {
     height: 120px;
     margin: 12px;
     width: 346px;
+    font-variant: small-caps;
 }
 
 .col-17-42-3 h3,
@@ -177,23 +174,28 @@ header h1 {
     border: 1px solid #000;
     border-top: 10px solid #000;
     float: right;
-    height: 1069px;
-    margin: 2.38% 0 0;
+    height: 1068px;
+    margin-top: 2.38%;
     width: 14.29%;
 }
 
 .aside-6-42 p {
     text-align: center;
-    margin: 10px 10% 0;
+    margin: 15px;
 }
 
 aside h6 {
     border-bottom: 1px solid #000;
+    font-weight: bold;
     height: 51px;
+    line-height: 1;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 12px;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;    
 }
+
 
 /* ==========================================================================
   Resets
