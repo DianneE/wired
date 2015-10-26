@@ -22,13 +22,14 @@ body {
 h2 {
     border-bottom: 1px solid #000;
     font-family: Times, serif;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 15px;
     text-transform: uppercase;
 }
 
 h3 {
     font-size: .9em;
     font-weight: bold;
+
 }
 
 h4, p {
@@ -93,6 +94,10 @@ header h1 {
     margin: 2.38% 2.38% 0 0; /* Add margin to top and right side of all sections with col- in the class*/
 }
 
+[class*='col-'] > p {
+    margin: 0 15px 15px 15px;
+}
+
 .col-35-42 {
     float: left;
     width: 83.33%;
@@ -102,14 +107,14 @@ header h1 {
     background-color: green; /*for visualization w/o image*/
     float: left;
     height: 400px;
-    margin:1.6666%;
+    margin: 15px;
     width: 75%;
 }
 
 .col-35-42 aside {
     float: right;
-    margin: 1.6666% 1.6666% 1.6666% 0;
-    width: 20%;
+    padding: 15px 15px 15px 0;
+    width: 21%;
 }
 
 [class*='col-17-42-'] {
@@ -119,14 +124,6 @@ header h1 {
 
 .col-17-42-1 h3 {
     padding: 12px 0 0 12px ;
-}
-
-.col-17-42-1 p {
-    padding: 0 12px 12px;    
-}
-
-.col-17-42-2 p {
-    padding: 0 12px 12px 12px;
 }
 
 .image-2 {
@@ -149,15 +146,14 @@ header h1 {
 .image-3 p { /* How do you get lines to hyphenate words that wrap to a new line? */
     background-color: green;
     height: 120px;
-    margin: 12px;
-    width: 346px;
+    margin: 15px;
+    width: 340px;
     font-variant: small-caps;
 }
 
 .col-17-42-3 h3,
-.col-17-42-3>p,
 .col-17-42-3 h5 {
-    margin: 0 12px;
+    margin: 0 15px;
 }
 
 .col-17-42-3 h5, 
