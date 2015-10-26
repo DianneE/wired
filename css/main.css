@@ -32,20 +32,20 @@ h3 {
 
 }
 
-h4, p {
+p {
     color: #555;
-    font-size: .8em;
+    font-size: .85em;
 }
 
-h5 {
+/*h5 {
     color: #000;
     font-size: .6em;
-}
+}*/
 
 a {
     border-bottom: 4px solid #9be;
     color: #000;
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 
 .logo {
@@ -54,6 +54,12 @@ a {
 
 .upcase {
     text-transform: uppercase;
+}
+
+.web {
+    font-variant: small-caps;
+    color: #000;
+    font-weight: bold;
 }
 
 .italic {
@@ -122,9 +128,9 @@ header h1 {
     width: 40.47%;
 }
 
-.col-17-42-1 h3 {
+/*.col-17-42-1 h3 {
     padding: 12px 0 0 12px ;
-}
+}*/
 
 .image-2 {
     background-color: green; /*for visualization w/o image*/
@@ -133,14 +139,9 @@ header h1 {
     width: 345px;
 }
 
-.col-17-42-2 h5, 
-.col-17-42-2 a {
-    display: inline;
-}
-
 .col-17-42-3 {
     margin-top: -370px;
-    padding-bottom: 12px;
+    padding-bottom: 15px;
 }
 
 .image-3 p { /* How do you get lines to hyphenate words that wrap to a new line? */
@@ -151,15 +152,11 @@ header h1 {
     font-variant: small-caps;
 }
 
-.col-17-42-3 h3,
-.col-17-42-3 h5 {
+.col-17-42-3 h3 {
     margin: 0 15px;
 }
 
-.col-17-42-3 h5, 
-.col-17-42-3 a {
-    display: inline;
-}
+
 
 /* ==========================================================================
    Aside
@@ -172,16 +169,17 @@ header h1 {
     float: right;
     height: 1068px;
     margin-top: 2.38%;
+    padding: 0 15px;
     width: 14.29%;
 }
 
 .aside-6-42 p {
     text-align: center;
-    margin: 15px;
 }
 
-aside h6 {
+h4 {
     border-bottom: 1px solid #000;
+    font-size: 0.67em;
     font-weight: bold;
     height: 51px;
     line-height: 1;
@@ -199,8 +197,6 @@ aside h6 {
 h2, 
 h3, 
 h4,
-h5,
-h6,
 p {
     margin: 0;
 }
