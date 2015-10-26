@@ -21,18 +21,19 @@ body {
 
 h2 {
     border-bottom: 1px solid #000;
-    font-family: Helvetica, serif;
+    font-family: Times, serif;
     padding: 10px 0 10px 10px;
     text-transform: uppercase;
 }
 
 h3 {
     font-size: .9em;
+    font-weight: bold;
 }
 
 h4, p {
     color: #555;
-    font-size: .7em;
+    font-size: .8em;
 }
 
 h5 {
@@ -42,6 +43,7 @@ h5 {
 
 h6 {
     font-weight: bold;
+    line-height: 1;
     text-align: center;
 }
 
@@ -57,7 +59,7 @@ a {
 
 a .upcase {
     font-size: 0.5em; /*How do you create upcase 
-    that is the height of the lower case letters?
+    that is the height of the lower case letters? 
     */
 }
 
@@ -92,11 +94,11 @@ header h1 {
     background-color: #eaeaea;
     border: 1px solid #000;
     border-top: 10px solid #000;
+    margin: 2.38% 2.38% 0 0; /* Add margin to top and right side of all sections with col- in the class*/
 }
 
 .col-35-42 {
     float: left;
-    margin: 2.38% 2.38% 2.38% 0;
     width: 83.33%;
 }
 
@@ -114,30 +116,9 @@ header h1 {
     width: 20%;
 }
 
-.col-6-42 {
-    float: right;
-    height: 1069px;
-    margin: 2.38% 0 0;
-    width: 14.29%;
-}
-
-.col-6-42 p {
-    text-align: center;
-    margin: 10px 10% 0;
-}
-
-aside h6 {
-    border-bottom: 1px solid #000;
-    height: 54px;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 12px;
-}
-
 [class*='col-17-42-'] {
     float: left;
     width: 40.47%;
-    margin-right: 2.38%;
 }
 
 .col-17-42-1 h3 {
@@ -166,9 +147,10 @@ aside h6 {
 
 .col-17-42-3 {
     margin-top: -345px;
+    padding-bottom: 12px;
 }
 
-.image-3 p {
+.image-3 p { /* How do you get lines to hyphenate words that wrap to a new line? */
     background-color: green;
     height: 120px;
     margin: 12px;
@@ -187,6 +169,33 @@ aside h6 {
 }
 
 /* ==========================================================================
+   Aside
+   ========================================================================== */
+
+.aside-6-42 {
+    background-color: #eaeaea; /* replicated from col- rule */
+    border: 1px solid #000;
+    border-top: 10px solid #000;
+    float: right;
+    height: 1069px;
+    margin: 2.38% 0 0;
+    width: 14.29%;
+}
+
+.aside-6-42 p {
+    text-align: center;
+    margin: 10px 10% 0;
+}
+
+aside h6 {
+    border-bottom: 1px solid #000;
+    height: 51px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 12px;
+}
+
+/* ==========================================================================
   Resets
    ========================================================================== */
 h2, 
@@ -199,7 +208,7 @@ p {
 }
 
 
-
+/* 10/23/15 - 4 hours of work on this */
 
 /* ==========================================================================
    Media Queries
