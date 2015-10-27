@@ -1,5 +1,9 @@
 
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Oranienbaum);
 
+/*font-family: 'Oranienbaum', serif;
+font-family: 'Old Standard TT', serif;
+*/
 /* ==========================================================================
    General
    ========================================================================== */
@@ -21,7 +25,8 @@ body {
 
 h2 {
     border-bottom: 1px solid #000;
-    font-family: Times, serif;
+    font-family: 'Oranienbaum', serif;
+    font-size: 1.7em;
     padding: 10px 15px;
     text-transform: uppercase;
 }
@@ -29,6 +34,7 @@ h2 {
 h3 {
     font-size: .9em;
     font-weight: bold;
+    padding: 15px 15px 0 15px;
 
 }
 
@@ -37,15 +43,11 @@ p {
     font-size: .85em;
 }
 
-/*h5 {
-    color: #000;
-    font-size: .6em;
-}*/
-
 a {
     border-bottom: 4px solid #9be;
     color: #000;
     font-size: 0.8em;
+    text-decoration: none;
 }
 
 .logo {
@@ -109,6 +111,10 @@ header h1 {
     width: 83.33%;
 }
 
+.col-35-42 h3 {
+    padding: 0;
+}
+
 .image-1 {
     background-color: green; /*for visualization w/o image*/
     float: left;
@@ -128,32 +134,23 @@ header h1 {
     width: 40.47%;
 }
 
-/*.col-17-42-1 h3 {
-    padding: 12px 0 0 12px ;
-}*/
-
 .image-2 {
     background-color: green; /*for visualization w/o image*/
     height: 310px;
-    margin: 12px 12px 20px;
-    width: 345px;
+    margin: 15px 15px 10px;
+    width: 340px;
 }
 
 .col-17-42-3 {
-    margin-top: -370px;
-    padding-bottom: 15px;
+    margin-top: -349px;
 }
 
 .image-3 p { /* How do you get lines to hyphenate words that wrap to a new line? */
     background-color: green;
-    height: 120px;
-    margin: 15px;
+    height: 88px;
+    margin: 15px 0 15px 15px;
     width: 340px;
     font-variant: small-caps;
-}
-
-.col-17-42-3 h3 {
-    margin: 0 15px;
 }
 
 
@@ -167,7 +164,7 @@ header h1 {
     border: 1px solid #000;
     border-top: 10px solid #000;
     float: right;
-    height: 1068px;
+    height: 1083px;
     margin-top: 2.38%;
     padding: 0 15px;
     width: 14.29%;
