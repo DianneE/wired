@@ -111,6 +111,11 @@ header h1 {
     width: 83.33%;
 }
 
+.col-35-42 a {
+    display: inline;
+    font-size: 0.8em;
+}
+
 .col-35-42 h3 {
     padding: 0;
 }
