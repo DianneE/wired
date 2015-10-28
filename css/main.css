@@ -17,7 +17,7 @@ body {
     line-height: 1.25;
 }
 
-.container {
+main {
     margin: 0 auto;
     padding: 0 15px;
     width: 950px;
@@ -91,7 +91,6 @@ header h1 {
 }
 
 .wired-logo-image {
-    background-color: #000;
     float: left;
     height: 60px;
     margin-top: 46px;
