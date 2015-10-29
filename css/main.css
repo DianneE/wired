@@ -44,10 +44,17 @@ p {
 }
 
 a {
-    border-bottom: 4px solid #9be;
+    /*border-bottom: 4px solid #9be;*/
     color: #000;
     font-size: 0.8em;
     text-decoration: none;
+}
+
+a::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #9be;
+  margin-top: -5px; /* move border up to blend in with text */
 }
 
 .logo {
