@@ -44,7 +44,11 @@ p {
 }
 
 a {
+<<<<<<< HEAD
     /*border-bottom: 4px solid #9be;*/
+=======
+    /* border-bottom: 4px solid #9be; this border moved to the :after below */
+>>>>>>> 481d20e0a38e9f17086f99f087eeb19bd89daa5f
     color: #000;
     font-size: 0.8em;
     text-decoration: none;
@@ -57,6 +61,17 @@ a::after {
   margin-top: -5px; /* move border up to blend in with text */
 }
 
+<<<<<<< HEAD
+=======
+footer.online {
+  margin-left: 15px;
+}
+
+footer.online div {
+  display: inline-flex; /* hooray to flexbox! */
+}
+
+>>>>>>> 481d20e0a38e9f17086f99f087eeb19bd89daa5f
 .logo {
     font-variant: small-caps;
 }
@@ -200,7 +215,7 @@ h4 {
     line-height: 1;
     padding-top: 15px;
     text-align: center;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 aside > img {
@@ -229,8 +244,8 @@ aside a {
 /* ==========================================================================
   Resets
    ========================================================================== */
-h2, 
-h3, 
+h2,
+h3,
 h4,
 p {
     margin: 0;
