@@ -123,6 +123,10 @@ header h1 {
     margin: 2.38% 2.38% 0 0; /* Add margin to top and right side of all sections with col- in the class*/
 }
 
+[class*='col-']:last-of-type {
+  margin-top: 1%;
+}
+
 [class*='col-'] > p {
     margin: 0 15px 15px 15px;
 }
@@ -155,7 +159,7 @@ header h1 {
     width: 21%;
 }
 
-[class*='col-17-42-'] {
+[class*='17-42'] {
     float: left;
     width: 40.47%;
 }
@@ -165,10 +169,6 @@ header h1 {
     height: 310px;
     margin: 15px 15px 10px;
     width: 340px;
-}
-
-.col-17-42-3 {
-    margin-top: -349px;
 }
 
 .image-3 p { /* How do you get lines to hyphenate words that wrap to a new line? */
