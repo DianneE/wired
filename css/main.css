@@ -20,7 +20,7 @@ body {
 main {
     margin: 0 auto;
     padding: 0 15px;
-    width: 950px;
+    width: 75.51669%;
 }
 
 h2 {
@@ -125,7 +125,7 @@ header h1 {
     background-color: #eaeaea;
     border: 1px solid #000;
     border-top: 10px solid #000;
-    margin: 21.891px 21.891px 0 0; /* or 2.38% Add margin to top and right side of all sections with col- in the class*/
+    margin: 21.891px 21.891px 0 0; /* 21.891px or 2.38% Add margin to top and right side of all sections with col- in the class*/
 }
 
 .col-35-42 {
