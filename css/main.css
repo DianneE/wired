@@ -44,11 +44,7 @@ p {
 }
 
 a {
-<<<<<<< HEAD
-    /*border-bottom: 4px solid #9be;*/
-=======
     /* border-bottom: 4px solid #9be; this border moved to the :after below */
->>>>>>> 481d20e0a38e9f17086f99f087eeb19bd89daa5f
     color: #000;
     font-size: 0.8em;
     text-decoration: none;
