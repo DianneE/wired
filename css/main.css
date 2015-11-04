@@ -115,34 +115,18 @@ header h1 {
     width: 65px;
 }
 
+
+
 /* ==========================================================================
    Main Content
    ========================================================================== */
-
-.section-content {
-    padding: 15px;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 [class*='col-'] {
     background-color: #eaeaea;
     border: 1px solid #000;
     border-top: 10px solid #000;
-    margin: 2.38% 2.38% 0 0; /* Add margin to top and right side of all sections with col- in the class*/
+    margin: 21.891px 21.891px 0 0; /* or 2.38% Add margin to top and right side of all sections with col- in the class*/
 }
-
-[class*='col-']:last-of-type {
-  margin-top: 1%;
-}
-
-/*[class*='col-'] > p {
-    margin: 0 15px 15px 15px;
-}*/
 
 .col-35-42 {
     float: left;
@@ -154,33 +138,28 @@ header h1 {
     font-size: 0.8em;
 }
 
-/*.col-35-42 h3 {
-    padding: 0;
-}*/
-
 .image-1 {
     background-color: green; /*for visualization w/o image*/
     float: left;
     height: 400px;
-    /*margin: 15px;*/
     width: 75%;
 }
 
 .col-35-42 aside {
-    float: right;
-    /*padding: 15px 15px 15px 0;*/
+    float: left;
+    margin-left: 20px;
     width: 21%;
 }
 
 [class*='17-42'] {
     float: left;
-    width: 40.47%;
+    width: 41.665%;
 }
 
 .image-2 {
     background-color: green; /*for visualization w/o image*/
     height: 310px;
-    /*margin: 15px 15px 10px;*/
+    margin-bottom: 15px;
     width: 340px;
 }
 
@@ -192,6 +171,15 @@ header h1 {
     font-variant: small-caps;
 }
 
+.section-content {
+    padding: 15px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 /* ==========================================================================
