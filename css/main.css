@@ -19,7 +19,6 @@ body {
 
 main {
     margin: 0 auto;
-  /*  padding: 0 15px;*/
     width: 75.51669%; /* 950px */
 }
 
@@ -34,7 +33,7 @@ h2 {
 h3 {
     font-size: .9em;
     font-weight: bold;
-    /*padding: 15px 15px 0 15px;*/
+    padding-top: 15px
 
 }
 
@@ -161,7 +160,6 @@ header h1 {
 [class*='17-42'] {
     float: left;
     width: 41.665%;
-    /*margin: 5.68597% 5.68597% 0 0; /* 21.891px/385px */*/
 }
 
 .inner {
@@ -170,12 +168,16 @@ header h1 {
 
 .usc-wired{ 
     display: block;
-    margin: 25px auto;
+    margin: 24px auto;
     width: 75%;
 }
 
 .janeane {
     width: 100%;
+}
+
+[class*='17-42'] p {
+    padding-right: 15px;
 }
 
 .section-content {
@@ -201,7 +203,6 @@ header h1 {
     border: 1px solid #000;
     border-top: 10px solid #000;
     float: right;
-    height: 1083px;
     margin-top: 2.38%;
     padding: 0 15px;
     text-align: center;
@@ -246,7 +247,7 @@ aside a {
 
 aside div {
     border-bottom: 1px solid #000;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 aside div:last-of-type {
@@ -265,13 +266,64 @@ p {
 }
 
 
-/* 10/23/15 - 4 hours of work on this */
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@/*media only screen and (min-width: 35em) {
+@media only screen and (max-width: 1050px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .aside-6-42 {
+        display: none;
+    }
+
+    .col-35-42 {
+        width: 100%;
+    }
+
+    [class*='17-42'] {
+    width: 50%;
+    }
+
+    [class*='17-42']:last-of-type {
+        margin-right: 0;
+    }
+
+    .col-17-42 {
+         margin-top: 2.99358%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    [class*='17-42'] {
+    width: 100%;
+    margin-right: 0;
+    }
+
+    .col- {
+        margin-right: 0;
+    }
+
+    .col-35-42 img {
+    float: none;
+    width: 100%;
+    }
+
+    .col-35-42 aside {
+    float: none;
+    margin-left: 0px;
+    width: 100%;
+    }
+
+    .inner {
+    margin: 2.676171882% 0 0;
+    }
+
 
 }
 
@@ -280,7 +332,7 @@ p {
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
 
-}*/
+}
 
 /* ==========================================================================
    Helper classes
