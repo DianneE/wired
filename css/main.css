@@ -57,6 +57,11 @@ a::after {
   margin-top: -5px; /* move border up to blend in with text */
 }
 
+img {
+    max-width: 100%;
+} 
+
+
 <<<<<<< HEAD
 =======
 footer.online {
