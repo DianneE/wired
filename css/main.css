@@ -45,17 +45,19 @@ p {
 
 a {
     /* border-bottom: 4px solid #9be; this border moved to the :after below */
-    color: #000;
+   /* color: #000;
     font-size: 0.8em;
-    text-decoration: none;
+    text-decoration: none;*/
+    color: #222;
+    font-size: 0.75em;
 }
 
-a::after {
+/*a::after {
   content: "";
   display: block;
   border-bottom: 4px solid #9be;
   margin-top: -5px; /* move border up to blend in with text */
-}
+}*/
 
 img {
     display: block;
@@ -74,9 +76,6 @@ footer.online div {
 }
 
 >>>>>>> 481d20e0a38e9f17086f99f087eeb19bd89daa5f
-.logo {
-    font-variant: small-caps;
-}
 
 .upcase {
     text-transform: uppercase;
@@ -155,15 +154,24 @@ header h1 {
     width: 21%;
 }
 
+.col-35-42 .online div {
+    padding-top: 0;
+}
+
 [class*='17-42'] {
     float: left;
     width: 41.665%;
    /* margin: 5.68597% 5.68597% 0 0 ; /* 21.891px/385px */*/
 }
 
-.usc-wired { /* How do you get lines to hyphenate words that wrap to a new line? */
-    margin: 0 auto 15px;
+.usc-wired{ 
+    display: block;
+    margin: 25px auto;
     width: 75%;
+}
+
+.janeane {
+    width: 95%;
 }
 
 .section-content {
@@ -176,6 +184,9 @@ header h1 {
   clear: both;
 }
 
+.logo {
+    font-variant: small-caps;
+}
 
 /* ==========================================================================
    Aside
@@ -226,11 +237,18 @@ aside a {
     display: block;
     font-size: 0.65em;
     margin: 0 auto;
-    width: 40px;
+    
 }
 
+aside div {
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
 
-
+aside div:last-of-type {
+    border-bottom: none;
+    padding-top: 30px;
+}
 
 /* ==========================================================================
   Resets
