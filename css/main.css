@@ -161,7 +161,11 @@ header h1 {
 [class*='17-42'] {
     float: left;
     width: 41.665%;
-   /* margin: 5.68597% 5.68597% 0 0 ; /* 21.891px/385px */*/
+    /*margin: 5.68597% 5.68597% 0 0; /* 21.891px/385px */*/
+}
+
+.inner {
+   margin: 5.760319553% 5.760319553% 0 0;
 }
 
 .usc-wired{ 
@@ -171,7 +175,7 @@ header h1 {
 }
 
 .janeane {
-    width: 95%;
+    width: 100%;
 }
 
 .section-content {
