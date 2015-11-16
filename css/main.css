@@ -157,7 +157,7 @@ header h1 {
 [class*='17-42'] {
     float: left;
     width: 41.665%;
-    margin: 5.68597% 5.68597% 0 0 ; /* 21.891px/385px */
+   /* margin: 5.68597% 5.68597% 0 0 ; /* 21.891px/385px */*/
 }
 
 .usc-wired { /* How do you get lines to hyphenate words that wrap to a new line? */
