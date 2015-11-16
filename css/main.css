@@ -127,7 +127,7 @@ header h1 {
    ========================================================================== */
 
 [class*='col-'] {
-    background-color: #eaeaea;
+    background-color: #fff;
     border: 1px solid #000;
     border-top: 10px solid #000;
     margin: 2.30431578% 2.30431578% 0 0; /* 21.891px/950px. Add margin to top and right side of all sections with col- in the class*/
@@ -160,19 +160,9 @@ header h1 {
     margin: 5.68597% 5.68597% 0 0 ; /* 21.891px/385px */
 }
 
-.image-2 {
-    background-color: green; /*for visualization w/o image*/
-    height: 310px;
-    margin-bottom: 15px;
-    width: 350px;
-}
-
-.image-3 p { /* How do you get lines to hyphenate words that wrap to a new line? */
-    background-color: green;
-    height: 88px;
-    margin-bottom: 15px;
-    width: 330px;
-    font-variant: small-caps;
+.usc-wired { /* How do you get lines to hyphenate words that wrap to a new line? */
+    margin: 0 auto 15px;
+    width: 75%;
 }
 
 .section-content {
@@ -191,7 +181,7 @@ header h1 {
    ========================================================================== */
 
 .aside-6-42 {
-    background-color: #eaeaea; /* replicated from col- rule */
+    background-color: #fff; /* replicated from col- rule */
     border: 1px solid #000;
     border-top: 10px solid #000;
     float: right;
