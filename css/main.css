@@ -58,6 +58,7 @@ a::after {
 }
 
 img {
+    display: block;
     max-width: 100%;
 } 
 
@@ -188,11 +189,12 @@ header h1 {
     height: 1083px;
     margin-top: 2.38%;
     padding: 0 15px;
+    text-align: center;
     width: 14.29%;
 }
 
 .aside-6-42 p {
-    text-align: center;
+    margin-top: 20px;
 }
 
 h4 {
@@ -206,7 +208,7 @@ h4 {
     text-transform: uppercase;
 }
 
-aside > img {
+aside img {
     display: block;
     height: 35px;
     width: 35px;
@@ -226,6 +228,7 @@ aside a {
     margin: 0 auto;
     width: 40px;
 }
+
 
 
 
