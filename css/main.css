@@ -19,8 +19,8 @@ body {
 
 main {
     margin: 0 auto;
-    padding: 0 15px;
-    width: 75.51669%;
+  /*  padding: 0 15px;*/
+    width: 75.51669%; /* 950px */
 }
 
 h2 {
@@ -99,7 +99,7 @@ header h1 {
     border-bottom: 1px solid #fff;
     color: #fff;
     float: left;
-    font-size: .6em;
+    font-size: .6em; /* 9.6px */
     line-height: 1;
     margin: 0 0 0 20px;
     padding: 70px 0 10px;
@@ -110,9 +110,9 @@ header h1 {
 
 .wired-logo-image {
     float: left;
-    height: 65px;
+    height: auto;
     margin-top: 42px;
-    width: 65px;
+    width: 6.842105%; /* 65px/950px */
 }
 
 
@@ -125,7 +125,7 @@ header h1 {
     background-color: #eaeaea;
     border: 1px solid #000;
     border-top: 10px solid #000;
-    margin: 21.891px 21.891px 0 0; /* 21.891px or 2.38% Add margin to top and right side of all sections with col- in the class*/
+    margin: 2.30431578% 2.30431578% 0 0; /* 21.891px/950px. Add margin to top and right side of all sections with col- in the class*/
 }
 
 .col-35-42 {
@@ -138,10 +138,8 @@ header h1 {
     font-size: 0.8em;
 }
 
-.image-1 {
-    background-color: green; /*for visualization w/o image*/
+.col-35-42 img {
     float: left;
-    height: 400px;
     width: 75%;
 }
 
@@ -154,13 +152,14 @@ header h1 {
 [class*='17-42'] {
     float: left;
     width: 41.665%;
+    margin: 5.68597% 5.68597% 0 0 ; /* 21.891px/385px */
 }
 
 .image-2 {
     background-color: green; /*for visualization w/o image*/
     height: 310px;
     margin-bottom: 15px;
-    width: 340px;
+    width: 350px;
 }
 
 .image-3 p { /* How do you get lines to hyphenate words that wrap to a new line? */
